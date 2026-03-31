@@ -1,0 +1,6 @@
+<svg width="240" height="48" viewBox="0 0 240 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="48" rx="8" fill="#1F3B73"/>
+  <path d="M22 13C22 11.8954 22.8954 11 24 11H31C35.4183 11 39 14.5817 39 19V29C39 30.1046 38.1046 31 37 31H30C25.5817 31 22 27.4183 22 23V13Z" fill="#FFFFFF"/>
+  <path d="M40 17C40 15.8954 40.8954 15 42 15H47C50.866 15 54 18.134 54 22V31C54 32.1046 53.1046 33 52 33H46C42.6863 33 40 30.3137 40 27V17Z" fill="#9FC3FF"/>
+  <text x="68" y="31" fill="white" font-family="Arial, sans-serif" font-size="18" font-weight="700">book store</text>
+</svg>
