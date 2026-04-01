@@ -4,6 +4,6 @@ import App from './App';
 
 test('renders book store', () => {
   render(<App />);
-  const linkElement = screen.getByRole('heading', { name: /book store/i });
-  expect(linkElement).toBeInTheDocument();
+  const logos = screen.getAllByAltText(/book store/i);
+  expect(logos.length).toBeGreaterThan(0);
 });
