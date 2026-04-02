@@ -1,8 +1,7 @@
-import React,{ ForwardedRef } from "react";
+import React, { ForwardedRef, InputHTMLAttributes } from "react";
 import styled from "styled-components";
 
-interface Props extends React.
-InputHTMLAttributes<HTMLInputElement> {
+interface Props extends InputHTMLAttributes<HTMLInputElement> {
     placeholder?: string;
     inputType ?: "text" | "email" | "password" | "number";
 }

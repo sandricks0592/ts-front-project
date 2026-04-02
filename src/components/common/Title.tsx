@@ -19,10 +19,9 @@ interface TitleStyleProps {
 }
 
 const TitleStyle = styled.h1<TitleStyleProps>`
-    font-size: ${({ theme, $size }) => theme.heading[$size as HeadingSize].
-    fontSize};
-    color: ${({ theme, $color }) => $color ? theme.color[$color]
-    : theme.color.primary};
+    font-size: ${({ theme, $size }) => theme.heading[$size as HeadingSize].fontSize};
+    color: ${({ theme, $color }) =>
+        $color ? theme.color[$color] : theme.color.primary};
 `;
 
 export default Title;
