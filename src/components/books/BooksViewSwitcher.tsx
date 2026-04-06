@@ -32,9 +32,11 @@ function BooksViewSwitcher() {
   // 첫 시작시 view가 존재하지 않을때
   useEffect(() => {
     if (!searchParams.get(QUERYSTRING.VIEW)) {
-      handleSwitch("grid");
+      const next = new URLSearchParams(searchParams);
+      next.set(QUERYSTRING.VIEW, "grid");
+      setSearchParams(next, { replace: true });
     }
-  }, []);
+  }, [searchParams, setSearchParams]);
   return (
     <BooksViewSwitcherStyle>
       {viewOptions.map((option) => {
