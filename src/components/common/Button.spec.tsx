@@ -6,7 +6,7 @@ describe.skip("Button 컴포넌트 테스트", () =>{
     it('렌더를 확인', () => {
         render(
             <BookStoreThemeProvider>
-                <Button size="large" scheme="primary" >
+                <Button size="large" schema="primary" >
                     버튼
                 </Button>
             </BookStoreThemeProvider>
@@ -19,7 +19,7 @@ describe.skip("Button 컴포넌트 테스트", () =>{
     it('size props 적용', () => {
         const { container } = render(
             <BookStoreThemeProvider>
-                <Button size="large" scheme="primary" >버튼</Button>
+                <Button size="large" schema="primary" >버튼</Button>
             </BookStoreThemeProvider>
         );
 

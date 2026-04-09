@@ -39,7 +39,7 @@ function BooksFilter() {
         {category.map((item) => (
           <Button
             size="medium"
-            scheme={currentCategory === item.id?.toString() ? "primary" : "normal"}
+            schema={currentCategory === item.id?.toString() ? "primary" : "normal"}
             key={item.id ?? "all"}
             onClick={() => handleCategory(item.id)}
           >
@@ -50,7 +50,7 @@ function BooksFilter() {
       <div className="new">
         <Button
           size="medium"
-          scheme={searchParams.get("news") ? "primary" : "normal"}
+          schema={searchParams.get("news") ? "primary" : "normal"}
           onClick={() => handleNews()}
         >
           신간

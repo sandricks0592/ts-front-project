@@ -16,7 +16,7 @@ function EllipsisBox({children, lineLimit}: Props) {
             <div className="toggle">
                 <Button
                     size="small"
-                    scheme="normal"
+                    schema="normal"
                     onClick={() => setExpanded(!expanded)}
                 >
                     {expanded ? "접기 ▲" : "펼치기 ▼"}

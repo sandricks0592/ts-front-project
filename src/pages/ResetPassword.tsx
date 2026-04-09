@@ -70,7 +70,7 @@ function ResetPassword() {
                     )}
                     <fieldset>
                         <Button type="submit" size="medium" 
-                        scheme='primary'>
+                        schema='primary'>
                             {resetRequested ? "비밀번호 초기화" : "초기화 요청"}
                         </Button>
                     </fieldset>

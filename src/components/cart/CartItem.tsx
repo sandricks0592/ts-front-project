@@ -48,7 +48,7 @@ function CartItem ({cart, checkedItems,
                     <p className="quantity">{cart.quantity} 권</p>
                 </div>
             </div>
-            <Button size="medium" scheme="normal" 
+            <Button size="medium" schema="normal" 
                 onClick={handleDelete}>
                 장바구니 삭제
             </Button>

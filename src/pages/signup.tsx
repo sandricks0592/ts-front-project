@@ -65,7 +65,7 @@ function Signup() {
                     </fieldset>
                     <fieldset>
                         <Button type="submit" size="medium" 
-                        scheme='primary'>
+                        schema='primary'>
                             회원가입
                         </Button>
                     </fieldset>

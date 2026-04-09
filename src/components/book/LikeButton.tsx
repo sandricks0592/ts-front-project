@@ -9,7 +9,7 @@ interface Props {
 
 function LikeButton({ book, onClick }: Props) {
   return (
-    <LikeButtonStyle size="medium" scheme="normal" onClick={onClick}>
+    <LikeButtonStyle size="medium" schema="normal" onClick={onClick}>
       <span aria-hidden="true">♥</span>
       {book.likes}
     </LikeButtonStyle>

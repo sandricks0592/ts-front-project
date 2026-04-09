@@ -71,7 +71,7 @@ function Login() {
                     </fieldset>
                     <fieldset>
                         <Button type="submit" size="medium" 
-                        scheme='primary'>
+                        schema='primary'>
                             로그인
                         </Button>
                     </fieldset>

@@ -91,7 +91,7 @@ function Cart() {
                             <div className="summary">
                                 <CartSummary totalQuantity={totalQuantity}
                                 totalPrice={totalPrice}/>
-                                <Button size="large" scheme="primary"
+                                <Button size="large" schema="primary"
                                 onClick={handleOrder}>
                                     주문 하기
                                 </Button>

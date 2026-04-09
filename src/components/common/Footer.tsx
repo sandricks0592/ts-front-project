@@ -8,7 +8,7 @@ function Footer() {
             <img src={logo} alt="book store" />
         </h1>
         <div className="copyright">
-            <p>copyright(c), 2024, Book Store.</p>
+            <p>copyright(c), 2026, Book Store.</p>
         </div>
         </FooterStyle>
     );

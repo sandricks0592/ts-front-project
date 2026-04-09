@@ -27,14 +27,14 @@ function AddToCart({ book, onAdd, cartAdded }: Props) {
           value={quantity}
           onChange={(e) => setQuantity(Math.max(1, Number(e.target.value) || 1))}
         />
-        <Button type="button" size="small" scheme="normal" onClick={handleIncrease}>
+        <Button type="button" size="small" schema="normal" onClick={handleIncrease}>
           +
         </Button>
-        <Button type="button" size="small" scheme="normal" onClick={handleDecrease}>
+        <Button type="button" size="small" schema="normal" onClick={handleDecrease}>
           -
         </Button>
       </div>
-      <Button type="button" size="medium" scheme="normal" onClick={handleAdd}>
+      <Button type="button" size="medium" schema="normal" onClick={handleAdd}>
         {book.title} 장바구니 담기
       </Button>
       <div className="added">

@@ -44,7 +44,7 @@ function BooksViewSwitcher() {
         return (
           <Button
             size="medium"
-            scheme={
+            schema={
               searchParams.get(QUERYSTRING.VIEW) === option.value
                 ? "primary"
                 : "normal"

@@ -59,7 +59,7 @@ function Order() {
                 </div>
                 <div className="summary">
                     <CartSummary totalQuantity={totalQuantity} totalPrice={totalPrice} />
-                    <Button size="large" scheme="primary">
+                    <Button size="large" schema="primary">
                         결제하기
                     </Button>
                 </div>

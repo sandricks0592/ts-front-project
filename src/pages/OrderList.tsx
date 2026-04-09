@@ -41,7 +41,7 @@ function OrderList() {
                   <td>
                     <Button
                       size="small"
-                      scheme="normal"
+                      schema="normal"
                       onClick={() => selectOrderItem(order.id)}
                     >
                       자세히
